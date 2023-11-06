@@ -1,0 +1,10 @@
+.home__footer{
+    margin-top: 5%;
+    text-align: center;
+    
+}
+.home__footer i{
+    color: var(--celeste);
+    font-size: 2em;
+    margin-bottom: 5px;
+}

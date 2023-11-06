@@ -1,0 +1,116 @@
+/*HEADER Y LOGO*/
+header{
+    background-color: var(--amarillo);
+    width: 100%;
+}
+.header-logo{
+    width: 47%;
+}
+/*BUSQUEDA*/
+.header__logobusqueda{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7% 4% 2% 8%;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.busqueda{
+    position: relative;
+    width: 47%;
+}
+
+.header span{
+    position: absolute;
+    border-radius: 20%;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    right: 4px;
+    top: 7px;
+}
+.header-busqueda{
+    padding: 9px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+}
+
+/*///NAVEGACION///*/
+
+/*BURGUER MENU*/
+.burger-menu{
+    text-align: center;
+}
+.fa-bars{
+    color: white;
+    background-color: var(--celeste);
+    font-size: 25px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20%;
+}
+/*/////////*/
+header nav{
+    display: none;
+}
+
+
+/*MEDIA*/
+/*TABLET*/
+@media (min-width:426px) {
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header-logo{
+        width: 30%;
+    }
+    /*BUSQUEDA*/
+    .busqueda{
+        display: flex;
+        width: 25%;
+        align-items: center;
+    }
+            .header-busqueda{
+                width: 70%;
+                padding: 0;
+                border: 1px solid gray;
+            }
+            .busqueda span{
+                position: sticky;
+                border: 1px solid gray;
+                font-size: 10px;
+                font-weight: 900;
+                padding: 1px;
+                }
+                      
+    .header__logobusqueda p{
+        width: 40%;
+    }
+
+
+
+    /*NAVEGACION*/
+    .burger-menu{
+        display: none;
+    }
+    header nav{
+        display: flex;
+    }
+    .header nav ul{
+        display: flex;
+        gap: 15px;
+        padding-top: 20px;
+    }
+    a{
+    color: black;
+    }
+
+
+}
+/*COMPUTADORA*/
+@media (min-width:1024px){
+
+}
