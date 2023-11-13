@@ -11,6 +11,7 @@ a{
 }
 li{
     list-style: none;
+    cursor: pointer;
 }
 *{
     padding: 0;
@@ -20,8 +21,12 @@ li{
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-}
 
+}
+main{
+    margin: 0 auto;
+    padding: 0 5%;
+}
 /*Cuerpos de texto: 12px
 Titulares (Basado en tu última visita/Ofertas): 24px
 Precios: 18px

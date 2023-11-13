@@ -1,7 +1,6 @@
 /*//////MAIN/////*/
-.home__main{
-    margin: 0 auto;
-    padding: 0 10%;
+main{
+
     background-color: var(--grisClaro);
     display: flex;
     flex-direction: column;
@@ -37,7 +36,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 15px 0;
-    align-items: center;
+
 }
 .descripcion i{
     color: var(--verde);
@@ -51,7 +50,7 @@
     border-radius: 50%;   
     position: absolute;
     right:20px;
-    bottom:40px;
+    bottom:55px;
 }
 
 .home__main__section--precio{
@@ -59,18 +58,18 @@
     width: 30%;
 }
 .home__main__section--descuento{
-    font-size: 16px;
+    font-size: 1rem;
     width: 70%;
     color: var(--verde);
-    text-align: center;
+    
 }
 .home__main__section--nombre{
-    font-size: 16px;
+    font-size: 1rem;
     display: none;
 
 }
 /*TABLET*/
-@media (min-width:426px) {
+@media (min-width:768px) {
     
     .home__main__section article{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -84,7 +83,7 @@
         color: var(--grisOscuro);
     }
     .descripcion i{
-        bottom: 95px;
+        bottom: 70px;
     }
 
 
@@ -93,11 +92,16 @@
 
 
 /*DESCKTOP*/
-@media (min-width:1024px) {
+@media (min-width:1023px) {
     .home__main__section article{
         
-        width: 21.5%;
+    width: 21.5%;
         
             }
+    .descripcion{
+        text-align: center;
+            
+            }
+
 
 }

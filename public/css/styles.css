@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import './normalize.css';
 @import './header.css';
-@import './1general.css';
+@import './ageneral.css';
 @import './home.css';
 @import './footer.css';
+@import './form.css'
 

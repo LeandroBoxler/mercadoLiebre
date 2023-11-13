@@ -42,7 +42,7 @@ header{
 .burger-menu{
     text-align: center;
 }
-.fa-bars{
+.burger-menu i{
     color: white;
     background-color: var(--celeste);
     font-size: 25px;
@@ -79,7 +79,7 @@ header nav{
                 border: 1px solid gray;
             }
             .busqueda span{
-                position: sticky;
+                position: static;
                 border: 1px solid gray;
                 font-size: 10px;
                 font-weight: 900;
