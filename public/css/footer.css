@@ -9,3 +9,14 @@
     font-size: 2em;
     margin-bottom: 5px;
 }
+@media (min-width:1023px) {
+    .home__footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between
+    }
+    .home__footer--copyright{
+       width: 100%;
+       padding-top: 20px;
+    }
+}

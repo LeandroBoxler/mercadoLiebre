@@ -51,6 +51,7 @@ main{
     position: absolute;
     right:20px;
     bottom:55px;
+    transition: all 3s;
 }
 
 .home__main__section--precio{
@@ -65,23 +66,30 @@ main{
 }
 .home__main__section--nombre{
     font-size: 1rem;
+    color: var(--grisOscuro);
+    
     display: none;
-
 }
 /*TABLET*/
 @media (min-width:768px) {
     
     .home__main__section article{
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
     width: 47%;}
     
-
     /*INFO DEL PRODUCTO*/
-
-    .home__main__section--nombre{
-        display: block;
-        color: var(--grisOscuro);
+    .home__main__section article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+    .home__main__section article:hover .home__main__section--nombre{
+        display: block;
+    }
+    .home__main__section article:hover .descripcion i{
+        transform:rotate(360deg);
+    }
+
+    
+
     .descripcion i{
         bottom: 70px;
     }
