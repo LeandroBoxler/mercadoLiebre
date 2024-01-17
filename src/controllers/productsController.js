@@ -15,7 +15,7 @@ escribirJSON = (productos) => {
 const controller = {
 	// Root - Show all products
 	index: (req, res) => {
-
+		const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 		res.render("products",{products,toThousand})
 	},
 
