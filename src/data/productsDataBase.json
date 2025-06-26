@@ -9,15 +9,6 @@
       "image": "img-cafetera-moulinex.jpg"
    },
    {
-      "id": 2,
-      "name": "Macbook Pro 2022",
-      "price": 500,
-      "discount": 3,
-      "category": "in-sale",
-      "description": "Macbook Pro 2019 Mpxq2ll/a Intel Core i5 2.3 Ghz 8gb RAM 128gb SSD Pantalla 13.3\" Retina Apple Nueva Original. Importada de USA. Se entrega con la factura de compra para contar con la garantía del fabricante",
-      "image": "img-macbook-pro-2019.jpg"
-   },
-   {
       "id": 3,
       "name": "Samsung Galaxy S10",
       "price": 72999,
@@ -151,5 +142,14 @@
       "category": "visited",
       "description": "TERRENEITOR! El coche más poderoso que ah existido, con tracción 4X4 y dos TURBO motores! Este si es todo terreno, las calles son fáciles, Mételo al lodo, parte la nieve, pasa por el agua ! TERRENEITOR! Es el más potente que haya existido! O que prefieres un coche para niñitas ?!",
       "image": "1703725996019_products.webp"
+   },
+   {
+      "id": "313d9cbc-d8f0-44f8-9b58-dcad979d80a6",
+      "name": "Leandro Boxler",
+      "price": null,
+      "discount": 0,
+      "category": "visited",
+      "description": "32r23r23",
+      "image": "1750898942352_products.gif"
    }
 ]

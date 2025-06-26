@@ -18,6 +18,11 @@ const controller = {
 		const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 		res.render("products",{products,toThousand})
 	},
+		offer: (req, res) => {
+		const result = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
+		const products = result.filter(e => e.discount>0)
+		res.render("products-offer",{products,toThousand})
+	},
 
 	// Detail - Detail from one product
 	detail: (req, res) => {
@@ -98,5 +103,7 @@ const controller = {
 	return res.redirect("/")
 		}
 	};
+
+
 
 module.exports = controller;
